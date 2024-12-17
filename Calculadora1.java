@@ -21,6 +21,7 @@ public class Calculadora1 {
     resultado = num1 + num2;
 =======
     char operador = '/';
+    char operador = '*';
     double num2 = 3.2;
     double resultado = 0;
     switch (operador) {
@@ -31,6 +32,16 @@ public class Calculadora1 {
     resultado = num1 / num2;
     }
 >>>>>>> division
+    break;
+    default:
+    System.out.println("Operador inválido");
+    return;
+    }
+    System.out.println("Resultado: " + resultado);
+    double resultado = 0;
+    switch (operador) {
+    case '*':
+    resultado = num1 * num2;
     break;
     default:
     System.out.println("Operador inválido");
